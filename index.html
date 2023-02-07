@@ -6,13 +6,26 @@
         <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/167/167755.png">
         <style>
             body {
-              background-color: #E6FFFF;
+              background-color: #FFFFFF;
+              
             }
 
+            .img_logo {
+                width: 160px;
+                border-radius: 5px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 5px;
+            }
+            .botao-home {
+            display: inline;
+            position: relative;
+            }
             .btn{
-                background-color: #ACECD8;
+                background-color: #D8D8C0;
                 border-color: black;
-                border-width: 2px;
+                border-width: 0px;
                 border-style: solid;
                 color: black;
                 padding: 7px 16px;
@@ -20,7 +33,7 @@
                 text-decoration: none;
                 display: inline-block;
                 font-size: 20px;
-                border-radius: 10px;
+                border-radius: 0px;
                 font-weight: bold;
                 margin-left: 10px;
                 margin-right: 10px;
@@ -30,21 +43,51 @@
             }
 
             .titulo {
-                width: auto;
+                width: 1200px;
                 font-size: 45px;
                 text-align: center;
                 margin-left: auto;
                 margin-right: auto;
                 display: block;
-                background-color: #ABFFBE;
+                background-color: #C4C4AC;
                 color: #313938;
                 border-width: 3px;
                 border-style: solid;
                 border-color: black;
-                border-radius: 5px;
+                border-radius: 0px;
                 padding: 4px;
                 font-family: "Times New Roman", Times, serif;
                 margin-bottom: 15px;
+
+            }
+            .homer {
+                margin-top: 15px;
+                width: 80px;
+                background-color: #FFFFFFF;
+                color: black;
+                font-weight: bold;
+                padding: 3px;
+                margin-right: 3px;
+                border: 2px;
+                border-radius: 7px;
+                border-color: black;
+                border-style: solid;
+                float: right;
+
+            }
+            .homel {
+                margin-top: 15px;
+                width: 80px;
+                background-color: #FFFFFFF;
+                color: black;
+                font-weight: bold;
+                padding: 3px;
+                margin-left: 3px;
+                border: 2px;
+                border-radius: 7px;
+                border-color: black;
+                border-style: solid;
+                float: left;
 
             }
 
@@ -67,7 +110,9 @@
     </head>
 
     <body>
-        <h1 class="titulo">Jnn Catálogos</h1>
+        <div class="titulo">
+        <center> <button class="homel"><a href="Carrinho.html" class="botao-home">Carrinho</a></button> <span style="font-weight: bold">Jnn Catálogos</span> <button class="homer"><a href="Carrinho.html" class="botao-home">Carrinho</a></button> </center>
+        </div>
         <h3 class="sub-titulo">Categorias:</h3>
         <div class="alinha">
     <a class="btn" href="Cat-Camisas-de-time.html">Camisas de time</a>
